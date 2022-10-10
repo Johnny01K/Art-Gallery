@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for Ninjuubi's art gallery">
+    <meta name="keywords" content="Art, Portraits, Gallery, Design, Digital art, Traditional art">
+    <meta name="author" content="Nikola Kekez">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Art Gallery | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Main Header-->
+    <header>
+        <div><a id="logo" href="index.html">ART Gallery</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <img src="img/logo2.jpg" alt="Profile Logo">
+        <a href="#"><img id="change-theme" src="img/change.svg" alt="Change Theme"></a>
+    </header>
+    <!--Main Header END-->
+    <h1 id="title">Contact</h1>
+    <!--Container-->
+    <div class="container">
+        <div class="all-holder">
+            <div class="checkbox-holder">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="format1" name="format1" value="A4">
+                    <label for="format1">Format A4, Graphite - 1 Person</label>
+                    <div class="info-checkbox" id="info-format1"></div>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="format2" name="format2" value="A3">
+                    <label for="format2">Format A3, Graphite - 2 Person</label>
+                    <div class="info-checkbox" id="info-format2"></div>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="format1b" name="format1b" value="A4">
+                    <label for="format1b">Format A4, Colored - 1 Person</label>
+                    <div class="info-checkbox" id="info-format1b"></div>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="format2b" name="format2b" value="A3">
+                    <label for="format2b">Format A3, Colored - 2 Person</label>
+                    <div class="info-checkbox" id="info-format2b"></div>
+                </div>
+            </div>
+            <div class="input-holder">
+                <div class="form-group">
+                    <label for="input-medium">Choose a desired medium: (Strathmore400, 300Watercolor, Fabriano)</label>
+                    <input type="text" id="input-medium" name="input-medium" placeholder="Choose a medium">
+                    <input type="submit" id="inputBtn" value="Check">
+                    <div class="info-medium"></div>
+                </div>
+            </div>
+            <div class="form-holder">
+                <form action="sent.html" method="post">
+                    <div class="form-group">
+                        <label for="user-name">Name <span>*</span></label><br>
+                        <input minlength="3" maxlength="20" type="text" id="user-name" name="user-name"
+                            placeholder="John" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-email">Email <span>*</span></label><br>
+                        <input type="email" id="user-email" name="user-email" placeholder="john.wick@gmail.com"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-msg">Write a message <span>*</span></label><br>
+                        <textarea name="user-msg" id="user-msg" rows="10" required></textarea>
+                    </div>
+                    <input id="sendBtn" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+        <div class="sidebar"></div>
+    </div>
+    <!--Container END-->
+    <!--My footer-->
+    <footer>
+        <div class="social-media">
+            <ul>
+                <li><a href="https://www.facebook.com/nikola.kekez.79/" id="fb" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/ninjuubi/" id="ig" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/Tenk2008" id="tt" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+        <div id="copyright">
+            <span>&copy; 2022 Art Gallery by <a href="index.html">Nikola Kekez</a>. All rights reserved.</span>
+        </div>
+    </footer>
+    <!--Footer END-->
+    <script src="js/contact.js
+    "></script>
+</body>
+
+</html>
